@@ -1,0 +1,159 @@
+body{
+ background-image: url(poll1.jpg);
+ background-size: cover;
+ }
+.textfield {
+	font-size: 11px;
+	color: #333333;
+	background: #F7F7F7;
+	border: 1px solid #999999;
+	padding-left: 1px;
+	
+}
+.container-login100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+.container-login100::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(93,84,240,0.5);
+  background: -webkit-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
+  background: -o-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
+  background: -moz-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
+  background: linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
+  pointer-events: none;
+}
+.wrap-login100 {
+  width: 390px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+#p{
+
+	width:300px;
+	height:75px;
+	text-align:center;
+	margin:0 auto; 
+margin-top:50px;
+border:#ffffff solid 1px;
+border-radius: 8px;
+
+padding:4px 6px 2px 6px;
+background:#47766E;
+ }
+
+.bottom_addr {
+font-size: 11px;
+color: #ffffff;
+padding: 5px 0 12px 0; 
+text-align:center; 
+font-size:15px;
+
+}
+
+h1 {
+	color: white;
+	margin: 0px 0px 5px;
+	padding: 0px 0px 3px;
+	font: bold 18px Comic Sans MS, Helvetica, sans-serif;
+	
+	text-align:center;
+	
+}
+h3{
+	color:white;
+	}
+a {
+	color: #2D3954;
+	font-size: 11px;
+}
+a:hover {
+	color: #99CC00;
+}
+.err {
+	color: #FF9900;
+}
+.news {
+	color:white;
+	font-size: 15px;
+}
+th {
+	font-weight: bold;
+	text-align: left;
+}
+#page{
+	background-image: url(poo1.jpg);
+ background-size: cover;	
+width:1000px;
+margin:0 auto; 
+margin-top:50px;
+padding-top:0px;
+height:500px;
+ border-radius: 25px;
+
+}
+.tb5 {
+	border:5px solid #5BC5C5;
+	border-radius:9px;
+	height: 21px;
+	width: 173px;
+}
+#header{
+text-align:center;
+background:#008888;
+  border-radius: 25px;
+  margin-top:20px
+
+}
+
+#header{
+	
+	font-size:20px;
+	
+}
+#container{
+border:#bd6f2f solid 1px;
+padding:4px 6px 2px 6px;
+width:970px; 
+margin:0 auto; 
+background:#00bbc9;  
+font-size:12px; 
+text-align:justify;
+margin-top:20px;
+}
+#footer{
+width:1000px; 
+margin:0 auto; 
+margin-top:-34px;
+background:#008888;
+border-radius: 25px;
+
+}
